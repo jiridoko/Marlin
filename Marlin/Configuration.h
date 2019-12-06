@@ -1280,9 +1280,9 @@
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 
 // ABS
-#define PREHEAT_2_TEMP_HOTEND 240
+#define PREHEAT_2_TEMP_HOTEND 260
 #define PREHEAT_2_TEMP_BED    105
-#define PREHEAT_2_FAN_SPEED    64 // Value from 0 to 255
+#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 /**
  * Nozzle Park
