@@ -128,7 +128,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_BTT_SKR_V1_4
+  #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   //measured values for hypercube
-  #define DEFAULT_Kp 13.20
-  #define DEFAULT_Ki 0.88
-  #define DEFAULT_Kd 49.28
+  #define DEFAULT_Kp 16.60
+  #define DEFAULT_Ki 1.07
+  #define DEFAULT_Kd 64.63
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -1008,7 +1008,7 @@
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define MIN_PROBE_EDGE 40
+#define PROBING_MARGIN 40
 
 // X and Y axis travel speed (mm/min) between probes
 #define XY_PROBE_SPEED (133*60)
