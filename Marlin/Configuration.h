@@ -2230,16 +2230,16 @@
 // Color Marlin UI with standard menu system
 //
 //#define TFT_320x240
-#define TFT_320x240_SPI
+//#define TFT_320x240_SPI
 //#define TFT_480x320
-//#define TFT_480x320_SPI
+#define TFT_480x320_SPI
 
 //
 // Skip autodetect and force specific TFT driver
 // Mandatory for SPI screens with no MISO line
 // Available drivers are: ST7735, ST7789, ST7796, R61505, ILI9328, ILI9341, ILI9488
 //
-#define TFT_DRIVER AUTO
+#define TFT_DRIVER ILI9488
 
 #define TFT_BUFFER_SIZE 2000
 
